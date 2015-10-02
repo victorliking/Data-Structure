@@ -1,0 +1,53 @@
+Monad Autograder
+Testing mp5.1 at 2013-03-16 00:28:28
+
+"A computer will do what you tell it to do, but that may be much different from what you had in mind" ~ Joseph Weizenbaum
+
+Setting up test environment...
+Compiling...
+================================================================
+quadtree.h: In function 'void proxy_test::test_getPixel_1(util::pipestream&)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:177: error: within this context
+quadtree.h: In function 'void proxy_test::test_getPixel_2(util::pipestream&)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:188: error: within this context
+quadtree.h: In function 'void proxy_test::test_getPixel_3(util::pipestream&)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:199: error: within this context
+quadtree.h: In function 'void proxy_test::test_getPixel_4(util::pipestream&)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:210: error: within this context
+quadtree.h: In function 'RGBAPixel time_getPixel(Quadtree*)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:271: error: within this context
+quadtree.h: In function 'void proxy_test::test_getPixel_1(util::pipestream&)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:177: error: within this context
+quadtree.h: In function 'void proxy_test::test_getPixel_2(util::pipestream&)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:188: error: within this context
+quadtree.h: In function 'void proxy_test::test_getPixel_3(util::pipestream&)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:199: error: within this context
+quadtree.h: In function 'void proxy_test::test_getPixel_4(util::pipestream&)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:210: error: within this context
+quadtree.h: In function 'RGBAPixel time_getPixel(Quadtree*)':
+quadtree.h:54: error: 'RGBAPixel Quadtree::getPixel(int, int) const' is private
+unit_tests.cpp:271: error: within this context
+ld: no input files
+g++: unit_tests.o: No such file or directory
+make: *** [proxy] Error 1
+
+
+exec("./proxy", "--nodetailed") failed: No such file or directory
+Running tests...
+================================================================
+Could not execute test cases
+
+
+Total score...
+================================================================
+TOTAL SCORE: 0
+

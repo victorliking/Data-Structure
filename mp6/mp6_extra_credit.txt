@@ -1,0 +1,40 @@
+Monad Autograder
+Testing mp6.1 at 2013-04-06 00:26:23
+
+"There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies." ~ C.A.R. Hoare
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+testSmallerDimVal . . . . . [4 pts] - passed
+testShouldReplace . . . . . [4 pts] - passed
+testLinearCtor_1_10 . . . . [6 pts] - passed
+testLinearCtor_3_31 . . . . [6 pts] - passed
+testLinearCtor_2_14 . . . . [6 pts] - passed
+testLinearNNS_1_10  . . . . [6 pts] - passed
+testLinearNNS_3_31  . . . . [6 pts] - passed
+testLinearNNS_2_14  . . . . [6 pts] - passed
+testDeceptiveNNOneLevelCtor [4 pts] - FAILED
+testDeceptiveNNOneLevelNNS  [4 pts] - passed
+testMinesCtor . . . . . . . [4 pts] - FAILED
+testMinesNNS  . . . . . . . [4 pts] - passed
+testDeceptiveMinesCtor  . . [4 pts] - FAILED
+testDeceptiveMinesNNS . . . [4 pts] - FAILED
+testTieBreakingCtor . . . . [4 pts] - FAILED
+testTieBreakingNNS  . . . . [4 pts] - passed
+testLeftRecurseCtor . . . . [4 pts] - FAILED
+testLeftRecurseNNS  . . . . [4 pts] - passed
+testRandom1Ctor . . . . . . [4 pts] - FAILED
+testRandom1NNS  . . . . . . [4 pts] - FAILED
+testRandom2Ctor . . . . . . [4 pts] - FAILED
+testRandom2NNS  . . . . . . [4 pts] - FAILED
+
+
+Total score...
+================================================================
+TOTAL SCORE: 60
+
